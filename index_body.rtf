@@ -1,0 +1,255 @@
+{\rtf1\fbidis\ansi\ansicpg1252\deff0\deflang1036{\fonttbl{\f0\fswiss\fcharset0 Arial;}{\f1\fswiss\fcharset178 Arial;}}
+{\*\generator Msftedit 5.41.15.1515;}\viewkind4\uc1\pard\ltrpar\f0\fs20\{JAVASCRIPT\}\par
+<!-- BEGIN message_admin_index -->\par
+<table class="forumline" width="100%" border="0" cellspacing="1" cellpadding="0">\par
+\tab <!-- BEGIN message_admin_titre -->\par
+\tab <tr>\par
+\tab\tab <td class="catHead" height="28"><span class="cattitle">\{message_admin_index.message_admin_titre.MES_TITRE\}</span></td>\par
+\tab </tr>\par
+\tab <!-- END message_admin_titre -->\par
+\tab <!-- BEGIN message_admin_txt -->\par
+\tab <tr>\par
+\tab\tab <td class="row1" rowspan="3" align="center" valign="middle">\par
+\tab\tab <div class="gensmall">\{message_admin_index.message_admin_txt.MES_TXT\}</div>\par
+\tab\tab </td>\par
+\tab </tr>\par
+\tab <!-- END message_admin_txt -->\par
+</table>\par
+<!-- END message_admin_index -->\par
+\par
+<!-- BEGIN switch_user_login_form_header -->\par
+<form action="\{S_LOGIN_ACTION\}" method="post" name="form_login">\par
+\tab <!-- BEGIN switch_fb_connect_no -->\par
+\tab <table width="100%" border="0" cellspacing="0" cellpadding="0" class="user_login_form forumline">\par
+\tab\tab <tr>\par
+\tab\tab\tab <td class="row1" align="center">\par
+\tab\tab\tab\tab <table border="0" cellspacing="0" cellpadding="0">\par
+\tab\tab\tab\tab\tab <tr>\par
+\tab\tab\tab\tab\tab\tab <td><span class="genmed">\{L_USERNAME\}:</span>&nbsp;</td>\par
+\tab\tab\tab\tab\tab\tab <td><input class="post" type="text" size="10" name="username"/>&nbsp;</td>\par
+\tab\tab\tab\tab\tab\tab <td>\par
+\tab\tab\tab\tab\tab\tab\tab <input class="radio" type="checkbox" name="autologin" \{AUTOLOGIN_CHECKED\} />\par
+\tab\tab\tab\tab\tab\tab\tab <span class="gensmall">\{L_AUTO_LOGIN\}</span>&nbsp;\par
+\tab\tab\tab\tab\tab\tab </td>\par
+\tab\tab\tab\tab\tab </tr>\par
+\par
+\tab\tab\tab\tab\tab <tr>\par
+\tab\tab\tab\tab\tab\tab <td><span class="genmed">\{L_PASSWORD\}:</span>&nbsp;</td>\par
+\tab\tab\tab\tab\tab\tab <td><input class="post" type="password" size="10" name="password"/>&nbsp;</td>\par
+\tab\tab\tab\tab\tab\tab <td>\{S_HIDDEN_FIELDS\}<input class="mainoption" type="submit" name="login" value="\{L_LOGIN\}" /></td>\par
+\tab\tab\tab\tab\tab </tr>\par
+\tab\tab\tab\tab </table>\par
+\tab\tab\tab </td>\par
+\tab\tab </tr>\par
+\tab </table>\par
+\tab <!-- END switch_fb_connect_no -->\par
+\par
+\tab <!-- BEGIN switch_fb_connect -->\par
+\tab <table width="100%" border="0" cellspacing="0" cellpadding="0" class="user_login_form forumline">\par
+\tab\tab <tr>\par
+\tab\tab\tab <td valign="top" width="100%" class="row1" align="center">\par
+\tab\tab\tab\tab <table width="100%">\par
+\tab\tab\tab\tab\tab <tr>\par
+\tab\tab\tab\tab\tab\tab <td width="55%" valign="middle" align="right">\par
+\tab\tab\tab\tab\tab\tab\tab <table class="right">\par
+\tab\tab\tab\tab\tab\tab\tab\tab <tr>\par
+\tab\tab\tab\tab\tab\tab\tab\tab\tab <td><span class="genmed">\{L_USERNAME\}:</span>&nbsp;</td>\par
+\tab\tab\tab\tab\tab\tab\tab\tab\tab <td><input class="post" type="text" size="10" name="username"/>&nbsp;</td>\par
+\tab\tab\tab\tab\tab\tab\tab\tab\tab <td>\par
+\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab <input class="radio" type="checkbox" name="autologin" \{AUTOLOGIN_CHECKED\} />\par
+\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab <span class="gensmall">\{L_AUTO_LOGIN\}</span>&nbsp;\par
+\tab\tab\tab\tab\tab\tab\tab\tab\tab </td>\par
+\tab\tab\tab\tab\tab\tab\tab\tab </tr>\par
+\par
+\tab\tab\tab\tab\tab\tab\tab\tab <tr>\par
+\tab\tab\tab\tab\tab\tab\tab\tab\tab <td><span class="genmed">\{L_PASSWORD\}:</span>&nbsp;</td>\par
+\tab\tab\tab\tab\tab\tab\tab\tab\tab <td><input class="post" type="password" size="10" name="password"/>&nbsp;</td>\par
+\tab\tab\tab\tab\tab\tab\tab\tab\tab <td>\{S_HIDDEN_FIELDS\}<input class="mainoption" type="submit" name="login" value="\{L_LOGIN\}" /></td>\par
+\tab\tab\tab\tab\tab\tab\tab\tab </tr>\par
+\tab\tab\tab\tab\tab\tab\tab </table>\par
+\tab\tab\tab\tab\tab\tab </td>\par
+\tab\tab\tab\tab\tab\tab <td width="10%" align="center" valign="middle">\par
+\tab\tab\tab\tab\tab\tab\tab <span class="genmed fb_or">\{switch_user_login_form_header.switch_fb_connect.L_OR\}</span>\par
+\tab\tab\tab\tab\tab\tab </td>\par
+\tab\tab\tab\tab\tab\tab <td width="35%" class="align_gauche"><fb:login-button size="large" onlogin="window.location='/facebook_connect.forum'" v="2" scope="\{switch_user_login_form_header.switch_fb_connect.L_FB_PERMISSIONS\}">\{switch_user_login_form_header.switch_fb_connect.L_FB_LOGIN_BUTTON\}</fb:login-button></td>\par
+\tab\tab\tab\tab\tab </tr>\par
+\tab\tab\tab\tab </table>\par
+\tab\tab\tab </td>\par
+\tab\tab </tr>\par
+\tab </table>\par
+\tab <!-- END switch_fb_connect -->\par
+</form>\par
+<!-- END switch_user_login_form_header -->\par
+\par
+\{CHATBOX_TOP\}\par
+\{BOARD_INDEX\}\par
+<table width="100%" border="0" cellspacing="0" cellpadding="0">\par
+\tab <tr>\par
+\tab\tab <td width="50%" valign="top">\par
+\tab\tab\tab <!-- BEGIN switch_user_logged_in -->\par
+\tab\tab\tab <span class="gensmall"><a href="\{U_MARK_READ\}" class="gensmall">\{L_MARK_FORUMS_READ\}</a>\par
+\tab\tab\tab <!-- END switch_user_logged_in -->\par
+\tab\tab\tab <!-- BEGIN switch_delete_cookies -->\par
+\tab\tab\tab <br /><a href="\{switch_delete_cookies.U_DELETE_COOKIES\}" class="gensmall">\{switch_delete_cookies.L_DELETE_COOKIES\}</a>\par
+\tab\tab\tab <!-- END switch_delete_cookies -->\par
+\tab\tab\tab </span>\par
+\tab\tab </td>\par
+\tab\tab <td width="50%" align="right">\par
+\tab\tab\tab <span class="gensmall">\par
+\tab\tab\tab\tab <a href="\{U_TODAY_ACTIVE\}" class="gensmall">\{L_TODAY_ACTIVE\}</a><br />\par
+\tab\tab\tab\tab <a href="\{U_TODAY_POSTERS\}" class="gensmall">\{L_TODAY_POSTERS\}</a><br />\par
+\tab\tab\tab\tab <a href="\{U_OVERALL_POSTERS\}" class="gensmall">\{L_OVERALL_POSTERS\}</a>\par
+\tab\tab\tab\tab <!-- BEGIN switch_on_index -->\par
+\tab\tab\tab\tab\tab <!-- BEGIN switch_delete_cookies -->\par
+\tab\tab\tab\tab\tab <br /><a href="\{switch_on_index.switch_delete_cookies.U_DELETE_COOKIES\}" class="gensmall">\{switch_on_index.switch_delete_cookies.L_DELETE_COOKIES\}</a>\par
+\tab\tab\tab\tab\tab <!-- END switch_delete_cookies -->\par
+\tab\tab\tab\tab <!-- END switch_on_index -->\par
+\tab\tab\tab </span>\par
+\tab\tab </td>\par
+\tab </tr>\par
+</table>\par
+\par
+<!-- BEGIN switch_user_login_form_footer -->\par
+<form action="\{S_LOGIN_ACTION\}" method="post" name="form_login">\par
+\tab <!-- BEGIN switch_fb_connect_no -->\par
+\tab <table width="100%" border="0" cellspacing="0" cellpadding="0" class="user_login_form forumline">\par
+\tab\tab <tr>\par
+\tab\tab\tab <td class="row1" align="center">\par
+\tab\tab\tab\tab <table border="0" cellspacing="0" cellpadding="0">\par
+\tab\tab\tab\tab\tab <tr>\par
+\tab\tab\tab\tab\tab\tab <td><span class="genmed">\{L_USERNAME\}:</span>&nbsp;</td>\par
+\tab\tab\tab\tab\tab\tab <td><input class="post" type="text" size="10" name="username"/>&nbsp;</td>\par
+\tab\tab\tab\tab\tab\tab <td>\par
+\tab\tab\tab\tab\tab\tab\tab <input class="radio" type="checkbox" name="autologin" \{AUTOLOGIN_CHECKED\} />\par
+\tab\tab\tab\tab\tab\tab\tab <span class="gensmall">\{L_AUTO_LOGIN\}</span>&nbsp;\par
+\tab\tab\tab\tab\tab\tab </td>\par
+\tab\tab\tab\tab\tab </tr>\par
+\par
+\tab\tab\tab\tab\tab <tr>\par
+\tab\tab\tab\tab\tab\tab <td><span class="genmed">\{L_PASSWORD\}:</span>&nbsp;</td>\par
+\tab\tab\tab\tab\tab\tab <td><input class="post" type="password" size="10" name="password"/>&nbsp;</td>\par
+\tab\tab\tab\tab\tab\tab <td>\{S_HIDDEN_FIELDS\}<input class="mainoption" type="submit" name="login" value="\{L_LOGIN\}" /></td>\par
+\tab\tab\tab\tab\tab </tr>\par
+\tab\tab\tab\tab </table>\par
+\tab\tab\tab </td>\par
+\tab\tab </tr>\par
+\tab </table>\par
+\tab <!-- END switch_fb_connect_no -->\par
+\par
+\tab <!-- BEGIN switch_fb_connect -->\par
+\tab <table width="100%" border="0" cellspacing="0" cellpadding="0" class="user_login_form forumline">\par
+\tab\tab <tr>\par
+\tab\tab\tab <td valign="top" width="100%" class="row1" align="center">\par
+\tab\tab\tab\tab <table width="100%">\par
+\tab\tab\tab\tab\tab <tr>\par
+\tab\tab\tab\tab\tab\tab <td width="55%" valign="middle">\par
+\tab\tab\tab\tab\tab\tab\tab <table class="right">\par
+\tab\tab\tab\tab\tab\tab\tab\tab <tr>\par
+\tab\tab\tab\tab\tab\tab\tab\tab\tab <td><span class="genmed">\{L_USERNAME\}:</span>&nbsp;</td>\par
+\tab\tab\tab\tab\tab\tab\tab\tab\tab <td><input class="post" type="text" size="10" name="username"/>&nbsp;</td>\par
+\tab\tab\tab\tab\tab\tab\tab\tab\tab <td>\par
+\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab <input class="radio" type="checkbox" name="autologin" \{AUTOLOGIN_CHECKED\} />\par
+\tab\tab\tab\tab\tab\tab\tab\tab\tab\tab <span class="gensmall">\{L_AUTO_LOGIN\}</span>&nbsp;\par
+\tab\tab\tab\tab\tab\tab\tab\tab\tab </td>\par
+\tab\tab\tab\tab\tab\tab\tab\tab </tr>\par
+\par
+\tab\tab\tab\tab\tab\tab\tab\tab <tr>\par
+\tab\tab\tab\tab\tab\tab\tab\tab\tab <td><span class="genmed">\{L_PASSWORD\}:</span>&nbsp;</td>\par
+\tab\tab\tab\tab\tab\tab\tab\tab\tab <td><input class="post" type="password" size="10" name="password"/>&nbsp;</td>\par
+\tab\tab\tab\tab\tab\tab\tab\tab\tab <td>\{S_HIDDEN_FIELDS\}<input class="mainoption" type="submit" name="login" value="\{L_LOGIN\}" /></td>\par
+\tab\tab\tab\tab\tab\tab\tab\tab </tr>\par
+\tab\tab\tab\tab\tab\tab\tab </table>\par
+\tab\tab\tab\tab\tab\tab </td>\par
+\tab\tab\tab\tab\tab\tab <td width="10%" align="center" valign="middle">\par
+\tab\tab\tab\tab\tab\tab\tab <span class="genmed fb_or">\{switch_user_login_form_footer.switch_fb_connect.L_OR\}</span>\par
+\tab\tab\tab\tab\tab\tab </td>\par
+\tab\tab\tab\tab\tab\tab <td width="35%" class="align_gauche"><fb:login-button size="large" onlogin="window.location='/facebook_connect.forum'" v="2" scope="\{switch_user_login_form_footer.switch_fb_connect.L_FB_PERMISSIONS\}">\{switch_user_login_form_footer.switch_fb_connect.L_FB_LOGIN_BUTTON\}</fb:login-button></td>\par
+\tab\tab\tab\tab\tab </tr>\par
+\tab\tab\tab\tab </table>\par
+\tab\tab\tab </td>\par
+\tab\tab </tr>\par
+\tab </table>\par
+\tab <!-- END switch_fb_connect -->\par
+</form>\par
+<!-- END switch_user_login_form_footer -->\par
+\par
+<!-- BEGIN disable_viewonline -->\par
+\par
+<br clear="all" />\par
+<table class="onnline" width="100%" border="0" cellpadding="2">\par
+<tbody>\par
+<tr>\par
+<td class="catHead" colspan="3" height="28"><span><a class="cattitle" href="/viewonline" rel="nofollow">\lang1025\f1\rtlch\'c7\'e1\'e3\'ca\'e6\'c7\'cc\'cf\'e6\'e4 \'c7\'e1\'c2\'e4 \'bf\lang1036\f0\ltrch </a></span></td></tr>\par
+<tr>\par
+<td class="row1" rowspan="6" align="center" valign="middle"><img alt="" src="http://illiweb.com/fa/empty.gif" id="i_whosonline" />\par
+</td></tr>\par
+<tr>\par
+<td class="row1"><span class="gensmall"><img src="http://www.d3m-vb.com/vb/images/styles/DeFraction/misc/users_online.png" alt="\lang1025\f1\rtlch\'c7\'e1\'e3\'ca\'e6\'c7\'cc\'cf\'e6\'e4 \'c7\'e1\'c2\'e4" />\'df\'df\'e1 \'e5\'e4\'c7\'df\lang1036\f0\ltrch  \par
+  \{TOTAL_USERS_ONLINE\}\par
+  </span></td>\par
+</tr>\par
+\tab\{L_CONNECTED_MEMBERS\}\par
+<tr>\par
+<td class="row1"><span class="gensmall">\{LEGEND\}&nbsp;:&nbsp;\{GROUP_LEGEND\}</span></td></tr>\par
+<tr>\par
+<td class="row1"><span class="gensmall"><img src="http://www.d3m-vb.com/vb/images/styles/DeFraction/misc/forum_stats.png" alt="\lang1025\f1\rtlch\'c7\'cd\'d5\'c7\'c6\'ed\'c7\'ca" /> \'c3\'da\'d6\'c7\'c4\'e4\'c7 \'de\'cf\'e3\'e6\'c7\lang1036\f0\ltrch  \par
+ \par
+  <span class="gensmall">\{TOTAL_POSTS\}<br />\par
+\tab\tab\{TOTAL_USERS\}<br />\par
+\tab\tab\{NEWEST_USER\}<br />\par
+  \{TOTAL_CHATTERS_ONLINE\}</span>\par
+  \par
+  \par
+ </span></td><style type="Text/css">.onnline\{border: 1px solid; color: #b2b2b2; background-color: #fff;  border-radius: 7px;\}</style>\par
+\par
+\par
+</tr></tbody></table>\par
+\par
+<!-- END disable_viewonline -->\par
+<div style="height: 4px"></div><table width="100%" border="0" cellspacing="0" cellpadding="0"><tr><td  align="left"><a onclick ="javascript:ShowHide('HiddenDiv_1')"><span style="font-weight: bold; line-height: 2em; font-size: 11px;">\par
+<img src="http://i78.servimg.com/u/f78/15/58/63/34/untitl11.png"> \par
+\lang1025\f1\rtlch\'d5\'e4\'cf\'e6\'de \'c7\'e1\'cf\'d1\'cf\'d4\'c9\lang1036\f0\ltrch  Chat Box </span></a><div id="HiddenDiv_1" style="DISPLAY: none" ><div id="chat"><iframe  style="border: none;  border-radius: 6px; -moz-border-radius: 6px; -webkit-border-radius: 6px;" src="/chatbox" width="100%" height="200px">\par
+</iframe></div>\par
+\par
+</div>\par
+<script language="JavaScript">function ShowHide(divId)\{if(document.getElementById(divId).style.display == 'none')\{document.getElementById(divId).style.display='block';\}else\{document.getElementById(divId).style.display = 'none';\}\}</script>\par
+\par
+<style>\par
+#chat \{border: 1px solid #a8a8a8;width: 100%; right: 15px;border-radius: 6px; height: 203px;\}\par
+</style>\par
+\par
+\par
+<br clear="all" />\par
+<!-- BEGIN switch_legend -->\par
+<table border="0" cellspacing="3" cellpadding="0" align="center">\par
+\tab <tr>\par
+\tab\tab <td align="center" width="20"><img src="\{FORUM_NEW_IMG\}" alt="\{L_NEW_POSTS\}" /></td>\par
+\tab\tab <td><span class="gensmall">\{L_NEW_POSTS\}</span></td>\par
+\tab\tab <td></td>\par
+\tab\tab <td align="center" width="20"><img src="\{FORUM_IMG\}" alt="\{L_NO_NEW_POSTS\}" /></td>\par
+\tab\tab <td><span class="gensmall">\{L_NO_NEW_POSTS\}</span></td>\par
+\tab\tab <td>&nbsp;&nbsp;</td>\par
+\tab\tab <td align="center" width="20"><img src="\{FORUM_LOCKED_IMG\}" alt="\{L_FORUM_LOCKED\}" /></td>\par
+\tab\tab <td><span class="gensmall">\{L_FORUM_LOCKED\}</span></td>\par
+\tab </tr>\par
+</table>\par
+<!-- END switch_legend -->\par
+\par
+\{AUTO_DST\}\par
+\par
+<!-- BEGIN switch_fb_index_login -->\par
+<div id="fb-root"></div>\par
+<script type="text/javascript">\par
+//<![CDATA[\par
+FB.init(\{\par
+\tab appId: '\{switch_fb_index_login.FACEBOOK_APP_ID\}',\par
+ \tab status: true,\par
+ \tab cookie: true,\par
+ \tab xfbml: true,\par
+\tab oauth: true\par
+\});\par
+//]]>\par
+</script>\par
+<!-- END switch_fb_index_login -->\par
+}
+ 
